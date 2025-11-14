@@ -1,0 +1,18 @@
+<!-- Eventra — Icon only monogram (E + blocks, no dot) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-labelledby="evMonoTitle">
+  <title id="evMonoTitle">Eventra Icon</title>
+  <defs>
+    <linearGradient id="monoGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF5841"/>
+      <stop offset="1" stop-color="#C53678"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded square bg -->
+  <rect x="4" y="4" width="112" height="112" rx="20" fill="url(#monoGrad)" />
+
+  <!-- three horizontal bars forming an "E" negative space -->
+  <rect x="24" y="32" width="64" height="12" rx="6" fill="#fff" opacity="0.95"/>
+  <rect x="24" y="54" width="48" height="12" rx="6" fill="#fff" opacity="0.95"/>
+  <rect x="24" y="76" width="64" height="12" rx="6" fill="#fff" opacity="0.95"/>
+</svg>

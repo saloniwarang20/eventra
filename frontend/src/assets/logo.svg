@@ -1,0 +1,19 @@
+<!-- Eventra Logo (Icon + Stylish Wordmark) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" width="520" height="120" role="img" aria-labelledby="eventraLogoTitle">
+  <title id="eventraLogoTitle">Eventra Logo</title>
+  <defs>
+    <linearGradient id="monoGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF5841"/>
+      <stop offset="1" stop-color="#C53678"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon (favicon style) -->
+  <g transform="translate(0,0)">
+    <rect x="0" y="0" width="120" height="120" rx="24" fill="url(#monoGrad)" />
+    <rect x="24" y="28" width="72" height="14" rx="7" fill="#fff" opacity="0.95"/>
+    <rect x="24" y="53" width="54" height="14" rx="7" fill="#fff" opacity="0.95"/>
+    <rect x="24" y="78" width="72" height="14" rx="7" fill="#fff" opacity="0.95"/>
+  </g>
+
+</svg>

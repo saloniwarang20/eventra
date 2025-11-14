@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+.bg-sunset {
+  background-color: #FF5841;
+}
+
+.bg-redviolet {
+  background-color: #C53678;
+}
+
+.text-sunset {
+  color: #FF5841;
+}
+
+.text-redviolet {
+  color: #C53678;
+}
+
+/* Hide default calendar/time picker icon */
+.hide-calendar-icon::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+.hide-calendar-icon::-moz-calendar-picker-indicator {
+  opacity: 0;
+  display: none;
+}
+.hide-calendar-icon::-ms-clear,
+.hide-calendar-icon::-ms-expand {
+  display: none;
+}
+
